@@ -5,9 +5,8 @@
          const instanciaPrueba = await PruebaExistencia1.deployed();
 
          //Interactuando con el contrato
-         //var hash = await instanciaPrueba.notariar('prueba una');
          var hash = await instanciaPrueba.proofor();
-         console.log('Mostrando el hash:', hash); //revisar
+         console.log('Mostrando el hash:', hash); 
 
     callback(0);
  }catch(err){
