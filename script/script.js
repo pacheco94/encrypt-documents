@@ -8,6 +8,10 @@
          var hash = await instanciaPrueba.proofor();
          console.log('Mostrando el hash:', hash); 
 
+         //mostando el valor de la funcion notariar
+         var prueba = await instanciaPrueba.prueba();
+         console.log('Mostando el valor variable prueba:', prueba);
+
     callback(0);
  }catch(err){
     console.log(err);
