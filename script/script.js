@@ -9,7 +9,7 @@
          var hashes = ['george','humberto','jorge'];
          for(let i = 0; i < hashes.length; ++i){
             hash = hashes[i];
-            console.log('Mostando los hash',await instanciaPrueba.proofor(hash));
+            console.log('Mostando los hash',await instanciaPrueba.seeHashDocument(hash));
          }     
 
     callback(0);

@@ -8,8 +8,10 @@ pragma experimental ABIEncoderV2;
      de no existir se revierte.
  */
 
+ //@ title < Encriptando Documento>
+
 contract PruebaExistencia1 {
-  // estado
+  
   bytes32[] private hashesDocuments ;
 
   //funcion para guardar un documento dentro del array ya convertido en hash
