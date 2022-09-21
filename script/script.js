@@ -5,12 +5,12 @@
          const instanciaPrueba = await PruebaExistencia1.deployed();
 
          //Interactuando con el contrato
-         var hash = await instanciaPrueba.proofor();
-         console.log('Mostrando el hash:', hash); 
-
-         //mostando el valor de la funcion notariar
-         var prueba = await instanciaPrueba.prueba();
-         console.log('Mostando el valor variable prueba:', prueba);
+         
+         var hashes = ['george','humberto','jorge'];
+         for(let i = 0; i < hashes.length; ++i){
+            hash = hashes[i];
+            console.log('Mostando los hash',await instanciaPrueba.seeHashDocument(hash));
+         }     
 
     callback(0);
  }catch(err){

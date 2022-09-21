@@ -2,3 +2,8 @@ migrations/
 truffle-config.js
 build/
 node_modules
+<<<<<<< HEAD
+=======
+pakage-lock.json
+pakage.json
+>>>>>>> version2
