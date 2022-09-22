@@ -6,7 +6,7 @@
 
          //Interactuando con el contrato
          
-         var hashes = ['george','humberto','jorge'];
+         var hashes = ['Document1','Document2','Document3'];
          for(let i = 0; i < hashes.length; ++i){
             hash = hashes[i];
             console.log('Mostando los hash',await instanciaPrueba.seeHashDocument(hash));
