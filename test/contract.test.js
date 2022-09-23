@@ -23,7 +23,7 @@ contract ('PruebaExistancia1', function([owner]){
        }catch(err){
         assert(err);
        }
-    });
+    });git 
 
 });
 
